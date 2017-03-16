@@ -1,0 +1,17 @@
+//
+//  DQPrefixHeader.pch
+//  DQTableFormView
+//
+//  Created by 邓琪 dengqi on 2016/12/23.
+//  Copyright © 2016年 邓琪 dengqi. All rights reserved.
+//
+
+#ifndef DQPrefixHeader_pch
+#define DQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "DQHeader.h"
+
+#endif /* DQPrefixHeader_pch */

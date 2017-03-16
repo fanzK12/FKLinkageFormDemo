@@ -15,6 +15,15 @@
 		CC007A851E0E6B5100DEFA4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC007A831E0E6B5100DEFA4C /* LaunchScreen.storyboard */; };
 		CC007A901E0E6B5100DEFA4C /* DQCanEditFromDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007A8F1E0E6B5100DEFA4C /* DQCanEditFromDemoTests.m */; };
 		CC007A9B1E0E6B5100DEFA4C /* DQCanEditFromDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007A9A1E0E6B5100DEFA4C /* DQCanEditFromDemoUITests.m */; };
+		CC007ABD1E0E6B5F00DEFA4C /* DQCanEditCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007AAB1E0E6B5F00DEFA4C /* DQCanEditCell.m */; };
+		CC007ABE1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007AAD1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.m */; };
+		CC007ABF1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007AAF1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.m */; };
+		CC007AC01E0E6B5F00DEFA4C /* DQTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007AB11E0E6B5F00DEFA4C /* DQTableViewCell.m */; };
+		CC007AC11E0E6B5F00DEFA4C /* DQFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007AB31E0E6B5F00DEFA4C /* DQFormViewController.m */; };
+		CC007AC21E0E6B5F00DEFA4C /* DQFormCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007AB81E0E6B5F00DEFA4C /* DQFormCollectionView.m */; };
+		CC007AC31E0E6B5F00DEFA4C /* DQFormHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007ABA1E0E6B5F00DEFA4C /* DQFormHeader.m */; };
+		CC007AC41E0E6B5F00DEFA4C /* DQTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CC007ABC1E0E6B5F00DEFA4C /* DQTextField.m */; };
+		E9A794DA1154E52D6F320F41 /* Pods_DQCanEditFromDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEB44552631866739F3A6F6A /* Pods_DQCanEditFromDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		89C244C4AFC7EE0F1BCB5CED /* Pods-DQCanEditFromDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQCanEditFromDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQCanEditFromDemo/Pods-DQCanEditFromDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B1B7EFB4AF8DE386D2F39892 /* Pods-DQCanEditFromDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQCanEditFromDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQCanEditFromDemo/Pods-DQCanEditFromDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		CC007A721E0E6B5100DEFA4C /* DQCanEditFromDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQCanEditFromDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC007A761E0E6B5100DEFA4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC007A781E0E6B5100DEFA4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,25 @@
 		CC007A961E0E6B5100DEFA4C /* DQCanEditFromDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQCanEditFromDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC007A9A1E0E6B5100DEFA4C /* DQCanEditFromDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQCanEditFromDemoUITests.m; sourceTree = "<group>"; };
 		CC007A9C1E0E6B5100DEFA4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC007AAA1E0E6B5F00DEFA4C /* DQCanEditCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQCanEditCell.h; sourceTree = "<group>"; };
+		CC007AAB1E0E6B5F00DEFA4C /* DQCanEditCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQCanEditCell.m; sourceTree = "<group>"; };
+		CC007AAC1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQCanEditTableViewCell.h; sourceTree = "<group>"; };
+		CC007AAD1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQCanEditTableViewCell.m; sourceTree = "<group>"; };
+		CC007AAE1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQFormCollectionViewCell.h; sourceTree = "<group>"; };
+		CC007AAF1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQFormCollectionViewCell.m; sourceTree = "<group>"; };
+		CC007AB01E0E6B5F00DEFA4C /* DQTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTableViewCell.h; sourceTree = "<group>"; };
+		CC007AB11E0E6B5F00DEFA4C /* DQTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTableViewCell.m; sourceTree = "<group>"; };
+		CC007AB21E0E6B5F00DEFA4C /* DQFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQFormViewController.h; sourceTree = "<group>"; };
+		CC007AB31E0E6B5F00DEFA4C /* DQFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQFormViewController.m; sourceTree = "<group>"; };
+		CC007AB41E0E6B5F00DEFA4C /* DQHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQHeader.h; sourceTree = "<group>"; };
+		CC007AB51E0E6B5F00DEFA4C /* DQPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQPrefixHeader.pch; sourceTree = "<group>"; };
+		CC007AB71E0E6B5F00DEFA4C /* DQFormCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQFormCollectionView.h; sourceTree = "<group>"; };
+		CC007AB81E0E6B5F00DEFA4C /* DQFormCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQFormCollectionView.m; sourceTree = "<group>"; };
+		CC007AB91E0E6B5F00DEFA4C /* DQFormHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQFormHeader.h; sourceTree = "<group>"; };
+		CC007ABA1E0E6B5F00DEFA4C /* DQFormHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQFormHeader.m; sourceTree = "<group>"; };
+		CC007ABB1E0E6B5F00DEFA4C /* DQTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DQTextField.h; sourceTree = "<group>"; };
+		CC007ABC1E0E6B5F00DEFA4C /* DQTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DQTextField.m; sourceTree = "<group>"; };
+		FEB44552631866739F3A6F6A /* Pods_DQCanEditFromDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQCanEditFromDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9A794DA1154E52D6F320F41 /* Pods_DQCanEditFromDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565F18AAFD553DF48F9F9253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEB44552631866739F3A6F6A /* Pods_DQCanEditFromDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8210869047123201D7469896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1B7EFB4AF8DE386D2F39892 /* Pods-DQCanEditFromDemo.debug.xcconfig */,
+				89C244C4AFC7EE0F1BCB5CED /* Pods-DQCanEditFromDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC007A691E0E6B5100DEFA4C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				CC007A8E1E0E6B5100DEFA4C /* DQCanEditFromDemoTests */,
 				CC007A991E0E6B5100DEFA4C /* DQCanEditFromDemoUITests */,
 				CC007A731E0E6B5100DEFA4C /* Products */,
+				8210869047123201D7469896 /* Pods */,
+				565F18AAFD553DF48F9F9253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +151,7 @@
 		CC007A741E0E6B5100DEFA4C /* DQCanEditFromDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CC007AA81E0E6B5F00DEFA4C /* DQCanEditTablForm */,
 				CC007A781E0E6B5100DEFA4C /* AppDelegate.h */,
 				CC007A791E0E6B5100DEFA4C /* AppDelegate.m */,
 				CC007A7B1E0E6B5100DEFA4C /* ViewController.h */,
@@ -140,6 +191,47 @@
 			path = DQCanEditFromDemoUITests;
 			sourceTree = "<group>";
 		};
+		CC007AA81E0E6B5F00DEFA4C /* DQCanEditTablForm */ = {
+			isa = PBXGroup;
+			children = (
+				CC007AB51E0E6B5F00DEFA4C /* DQPrefixHeader.pch */,
+				CC007AB41E0E6B5F00DEFA4C /* DQHeader.h */,
+				CC007AB21E0E6B5F00DEFA4C /* DQFormViewController.h */,
+				CC007AB31E0E6B5F00DEFA4C /* DQFormViewController.m */,
+				CC007AB61E0E6B5F00DEFA4C /* View */,
+				CC007AA91E0E6B5F00DEFA4C /* Cell */,
+			);
+			path = DQCanEditTablForm;
+			sourceTree = "<group>";
+		};
+		CC007AA91E0E6B5F00DEFA4C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC007AB01E0E6B5F00DEFA4C /* DQTableViewCell.h */,
+				CC007AB11E0E6B5F00DEFA4C /* DQTableViewCell.m */,
+				CC007AAC1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.h */,
+				CC007AAD1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.m */,
+				CC007AAE1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.h */,
+				CC007AAF1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.m */,
+				CC007AAA1E0E6B5F00DEFA4C /* DQCanEditCell.h */,
+				CC007AAB1E0E6B5F00DEFA4C /* DQCanEditCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC007AB61E0E6B5F00DEFA4C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC007AB71E0E6B5F00DEFA4C /* DQFormCollectionView.h */,
+				CC007AB81E0E6B5F00DEFA4C /* DQFormCollectionView.m */,
+				CC007AB91E0E6B5F00DEFA4C /* DQFormHeader.h */,
+				CC007ABA1E0E6B5F00DEFA4C /* DQFormHeader.m */,
+				CC007ABB1E0E6B5F00DEFA4C /* DQTextField.h */,
+				CC007ABC1E0E6B5F00DEFA4C /* DQTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +239,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC007A9F1E0E6B5100DEFA4C /* Build configuration list for PBXNativeTarget "DQCanEditFromDemo" */;
 			buildPhases = (
+				9F3B61522E0D1437EAF6F717 /* [CP] Check Pods Manifest.lock */,
 				CC007A6E1E0E6B5100DEFA4C /* Sources */,
 				CC007A6F1E0E6B5100DEFA4C /* Frameworks */,
 				CC007A701E0E6B5100DEFA4C /* Resources */,
+				80C6AC4999CFDF751EB991B4 /* [CP] Embed Pods Frameworks */,
+				AA5A36B728A28F60A3C9858D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,14 +363,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		80C6AC4999CFDF751EB991B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQCanEditFromDemo/Pods-DQCanEditFromDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F3B61522E0D1437EAF6F717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA5A36B728A28F60A3C9858D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQCanEditFromDemo/Pods-DQCanEditFromDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CC007A6E1E0E6B5100DEFA4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC007AC21E0E6B5F00DEFA4C /* DQFormCollectionView.m in Sources */,
+				CC007AC31E0E6B5F00DEFA4C /* DQFormHeader.m in Sources */,
+				CC007AC41E0E6B5F00DEFA4C /* DQTextField.m in Sources */,
 				CC007A7D1E0E6B5100DEFA4C /* ViewController.m in Sources */,
+				CC007AC11E0E6B5F00DEFA4C /* DQFormViewController.m in Sources */,
 				CC007A7A1E0E6B5100DEFA4C /* AppDelegate.m in Sources */,
 				CC007A771E0E6B5100DEFA4C /* main.m in Sources */,
+				CC007ABE1E0E6B5F00DEFA4C /* DQCanEditTableViewCell.m in Sources */,
+				CC007AC01E0E6B5F00DEFA4C /* DQTableViewCell.m in Sources */,
+				CC007ABD1E0E6B5F00DEFA4C /* DQCanEditCell.m in Sources */,
+				CC007ABF1E0E6B5F00DEFA4C /* DQFormCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,23 +571,29 @@
 		};
 		CC007AA01E0E6B5100DEFA4C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B7EFB4AF8DE386D2F39892 /* Pods-DQCanEditFromDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DQCanEditFromDemo/DQCanEditTablForm/DQPrefixHeader.pch";
 				INFOPLIST_FILE = DQCanEditFromDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengqi.DQPopTest.DQCanEditFromDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Debug;
 		};
 		CC007AA11E0E6B5100DEFA4C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C244C4AFC7EE0F1BCB5CED /* Pods-DQCanEditFromDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DQCanEditFromDemo/DQCanEditTablForm/DQPrefixHeader.pch";
 				INFOPLIST_FILE = DQCanEditFromDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengqi.DQPopTest.DQCanEditFromDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${PODS_ROOT}/**";
 			};
 			name = Release;
 		};
@@ -505,6 +662,7 @@
 				CC007AA11E0E6B5100DEFA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC007AA21E0E6B5100DEFA4C /* Build configuration list for PBXNativeTarget "DQCanEditFromDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +671,7 @@
 				CC007AA41E0E6B5100DEFA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC007AA51E0E6B5100DEFA4C /* Build configuration list for PBXNativeTarget "DQCanEditFromDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +680,7 @@
 				CC007AA71E0E6B5100DEFA4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
